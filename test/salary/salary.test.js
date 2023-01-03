@@ -1,4 +1,4 @@
-import {sumDiscounts, sumOverTime} from '../src/salary.js';
+import {sumDiscounts, sumOverTime} from '../../src/salary/salary.js';
 
 describe('Tests salary', () => {
 
