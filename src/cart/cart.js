@@ -21,14 +21,14 @@ class Cart {
 
     checkout() {
         if (this.items.length === 0) {
-            throw new Error('Cart de compras vazio');
+            throw new Error('Cart is empty!');
         }
 
         this.total = this.calculateTotal();
 
         return {
             subtotal: this.subtotal,
-            frete: this.tax,
+            tax: this.tax,
             total: this.total,
         };
     }

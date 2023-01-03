@@ -1,4 +1,5 @@
 import Item from "../../src/cart/item.js";
+import Cart from "../../src/cart/cart.js";
 
 describe('Tests of items', () => {
 
